@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#logo {
+    border: 2px solid green;
+    width: 1080px;
+    height: 1080px;
+    background-position: left bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('img/0.png');
+    animation: logo linear 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logo {
+    0%{
+        background-image: url('img/1.png');
+    }
+    4%{
+        background-image: url('img/2.png');
+    }
+    8%{
+        background-image: url('img/3.png');
+
+    }
+    12%{
+        background-image: url('img/4.png');
+
+    }
+    16%{
+        background-image: url('img/5.png');
+
+    }
+    20%{
+        background-image: url('img/6.png');
+
+    }
+    24%{
+        background-image: url('img/7.png');
+
+    }
+    28%{
+        background-image: url('img/8.png');
+
+    }
+    32%{
+        background-image: url('img/9.png');
+
+    }
+    36%{
+        background-image: url('img/10.png');
+
+    }
+    40%{
+        background-image: url('img/11.png');
+
+    }
+    44%{
+        background-image: url('img/12.png');
+
+    }
+    48%{
+        background-image: url('img/13.png');
+
+    }
+    52%{
+        background-image: url('img/14.png');
+
+    }
+    56%{
+        background-image: url('img/15.png');
+
+    }
+    60%{
+        background-image: url('img/16.png');
+
+    }
+    64%{
+        background-image: url('img/17.png');
+
+    }
+    68%{
+        background-image: url('img/18.png');
+
+    }
+    72%{
+        background-image: url('img/19.png');
+
+    }
+    74%{
+        background-image: url('img/20.png');
+
+    }
+    78%{
+        background-image: url('img/21.png');
+
+    }
+    82%{
+        background-image: url('img/22.png');
+
+    }
+    84%{
+        background-image: url('img/23.png');
+
+    }
+    88%{
+        background-image: url('img/24.png');
+
+    }
+    92%{
+        background-image: url('img/25.png');
+
+    }
+    94%{
+        background-image: url('img/26.png');
+
+    }
+    98%{
+        background-image: url('img/27.png');
+
+    }
+    100%{}
+}
