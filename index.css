@@ -12,9 +12,9 @@ body {
 }
 
 #logo {
-    border: 2px solid green;
-    width: 1080px;
-    height: 1080px;
+    /* border: 2px solid green; */
+    width: 100vh;
+    height: 100vh;
     background-position: left bottom;
     background-size: contain;
     background-repeat: no-repeat;
